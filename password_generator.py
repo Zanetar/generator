@@ -1,4 +1,3 @@
-
 from random import *
 import string
 
@@ -269,17 +268,16 @@ def menu():
                 save(password)
                 break
     except: print('Wybrano zły znak!')
-menu()
-'''
+
+
 class Password_generator:
     def __init__(self, password):
         self.password = password
 
     def __repr__(self):
-        return ('Twój osobisty generator haseł. Służy do generowania ciągu znaków z możliwością zapisania go do pliku.')'''
+        return ('Twój osobisty generator haseł. Służy do generowania ciągu znaków z możliwością zapisania go do pliku.')
 
-
-
+menu() #wywołanie generatora
 
 
 
